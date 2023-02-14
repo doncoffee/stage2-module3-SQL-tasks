@@ -1,0 +1,75 @@
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (1, 'John', '2023-02-10', 1);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (2, 'Chris', '2023-02-10', 1);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (3, 'Carl', '2023-02-10', 1);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (4, 'Oliver', '2023-02-10', 2);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (5, 'James', '2023-02-10', 2);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (6, 'Lucas', '2023-02-10', 2);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (7, 'Henry', '2023-02-10', 2);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (8, 'Jacob', '2023-02-10', 3);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (9, 'Logan', '2023-02-10', 3);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (10, 'Fill', '2023-02-10', 4);
+INSERT INTO STUDENT (ID, NAME, BIRTHDAY, GROUPNUMBER)
+values (11, 'Cloe', '2023-02-10', 5);
+
+INSERT INTO SUBJECT (id, name, grade)
+values (1, 'Art', 1);
+INSERT INTO SUBJECT (id, name, grade)
+values (2, 'Music', 1);
+INSERT INTO SUBJECT (id, name, grade)
+values (3, 'Geography', 2);
+INSERT INTO SUBJECT (id, name, grade)
+values (4, 'History', 2);
+INSERT INTO SUBJECT (id, name, grade)
+values (5, 'PE', 3);
+INSERT INTO SUBJECT (id, name, grade)
+values (6, 'Math', 3);
+INSERT INTO SUBJECT (id, name, grade)
+values (7, 'Science', 4);
+INSERT INTO SUBJECT (id, name, grade)
+values (8, 'IT', 4);
+INSERT INTO SUBJECT (id, name, grade)
+values (9, 'Biology', 5);
+INSERT INTO SUBJECT (id, name, grade)
+values (10, 'Astronomy', 5);
+
+INSERT INTO PAYMENTTYPE (ID, NAME)
+values (1, 'DAILY');
+INSERT INTO PAYMENTTYPE (ID, NAME)
+values (2, 'WEEKLY');
+INSERT INTO PAYMENTTYPE (ID, NAME)
+values (3, 'MONTHLY');
+
+INSERT INTO PAYMENT (TYPE_ID, AMOUNT, PAYMENT_DATE, STUDENT_ID)
+VALUES (2, 50, '2023-02-10', 1);
+INSERT INTO PAYMENT (TYPE_ID, AMOUNT, PAYMENT_DATE, STUDENT_ID)
+VALUES (3, 50, '2023-02-10', 4);
+INSERT INTO PAYMENT (TYPE_ID, AMOUNT, PAYMENT_DATE, STUDENT_ID)
+VALUES (2, 50, '2023-02-10', 7);
+INSERT INTO PAYMENT (TYPE_ID, AMOUNT, PAYMENT_DATE, STUDENT_ID)
+VALUES (1, 50, '2023-02-10', 5);
+
+
+insert into MARK (STUDENT_ID, SUBJECT_ID, MARK)
+values (2, 1, 8);
+insert into MARK (STUDENT_ID, SUBJECT_ID, MARK)
+values (4, 6, 5);
+insert into MARK (STUDENT_ID, SUBJECT_ID, MARK)
+values (5, 2, 9);
+insert into MARK (STUDENT_ID, SUBJECT_ID, MARK)
+values (8, 5, 4);
+insert into MARK (STUDENT_ID, SUBJECT_ID, MARK)
+values (9, 3, 9);
+insert into MARK (STUDENT_ID, SUBJECT_ID, MARK)
+values (1, 4, 6);
+insert into MARK (STUDENT_ID, SUBJECT_ID, MARK)
+values (3, 6, 2);
